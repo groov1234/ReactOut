@@ -111,7 +111,7 @@ class Breakout extends Component {
     function drawPaddle() {
       ctx.beginPath();
       ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-      ctx.fillStyle = "black";
+      ctx.fillStyle = "white";
       ctx.fill();
       ctx.closePath();
     }
