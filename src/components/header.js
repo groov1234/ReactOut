@@ -6,7 +6,7 @@ class Header extends Component {
     
         <ul className="welcome">
             <li>Welcome to React BreakOut</li>
-            <li className="who">By Calum</li>
+            <li className="author">By Calum</li>
             
         </ul>
     );

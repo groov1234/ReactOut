@@ -1,0 +1,46 @@
+html,
+body {
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Titan One', cursive;
+  background-color: slategray;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 1200px;
+  width: 1000px;
+  border: 3px solid red;
+}
+.container .header {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 1000px;
+  margin-top: 20px;
+  font-size: 2rem;
+  border: 5px solid red;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 6px;
+}
+.container .header .welcome {
+  justify-content: center;
+  list-style: none;
+}
+.container .header .welcome .author {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.container .game {
+  display: flex;
+  align-self: center;
+  height: 480px;
+  width: 640px;
+  background: lightgray;
+  margin: 50px auto;
+  box-shadow: 0 2 8 20;
+  border: 3px solid red;
+}

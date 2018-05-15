@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Breakout from './components/breakout';
-import Header from './components/background';
-import './App.css';
+import Header from './components/header';
+import './css/App.css';
 
 class App extends Component {
   render() {
