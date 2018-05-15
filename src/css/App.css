@@ -1,5 +1,8 @@
 html,
 body {
+  margin: 0 auto;
+  background-image: url("graywall.jpg");
+  background-size: 100%;
   font-size: 20px;
   height: 100%;
   width: 100%;
@@ -7,40 +10,45 @@ body {
   background-color: slategray;
 }
 .container {
-  margin: 0 auto;
   display: flex;
   justify-content: center;
-  height: 1200px;
-  width: 1000px;
-  border: 3px solid red;
+  height: 100%;
+  flex-wrap: wrap;
 }
 .container .header {
+  margin: 20px auto;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: 200px;
-  width: 1000px;
-  margin-top: 20px;
-  font-size: 2rem;
-  border: 5px solid red;
-  border-radius: 20px;
-  box-shadow: 0 0 8px 6px;
+  height: 100%;
 }
-.container .header .welcome {
-  justify-content: center;
+.container .header .heading {
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+  height: 100%;
+  box-shadow: 2px 4px 8px 12px;
+}
+.container .header .heading .welcome {
+  color: paleturquoise;
+  text-shadow: 3px 4px 2px black;
   list-style: none;
+  font-size: 2rem;
 }
-.container .header .welcome .author {
-  display: flex;
-  justify-content: center;
+.container .header .heading .author {
+  color: goldenrod;
+  text-shadow: 3px 4px 2px black;
+  text-align: center;
+  list-style: none;
   font-size: 1.5rem;
 }
-.container .game {
+.game {
   display: flex;
+  justify-content: center;
   align-self: center;
   height: 480px;
   width: 640px;
   background: lightgray;
   margin: 50px auto;
-  box-shadow: 0 2 8 20;
-  border: 3px solid red;
+  box-shadow: 0px 2px 8px 10px;
 }
